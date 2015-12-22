@@ -26,7 +26,7 @@ chmod +x mongodb.sh
 chmod +x auto_backup.sh
 
 mkdir /home/backup
-mkdir /home/mongodb
+mkdir /home/backup/mongodb
 mkdir /home/backup/mongodb/mongod_bak_now
 mkdir /home/backup/mongodb/mongod_bak_list
 
