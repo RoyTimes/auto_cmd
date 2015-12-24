@@ -40,5 +40,5 @@ rm -rf $OUT_DIR/*
 mkdir -p $OUT_DIR/$DATE
 mongodump -u $DB_USER -p $DB_PASS -o $OUT_DIR/$DATE 
 
-
+tar -zcvf $TAR_DIR/$TAR_BAK $OUT_DIR/$DATE #compress 
 find $TAR_DIR/ -mtime +$DAYS -delete #del old backups
