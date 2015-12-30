@@ -31,7 +31,7 @@ DATE=`date +%Y_%m_%d`
 
 DB_USER=root #db user name
 DB_PASS=adminadmin #db user passwd
-DAYS=7 #how long do we keep the backup
+DAYS=5 #how long do we keep the backup
 
 TAR_BAK="mongod_bak_$DATE.tar.gz" #name for the backup file
 
